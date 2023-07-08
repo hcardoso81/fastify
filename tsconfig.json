@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "types": ["node", "fastify"],
+    "target": "ES2019",
+    "module": "ESNext",
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "strict": true,
+    "moduleResolution": "node"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
